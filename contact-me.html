@@ -8,20 +8,18 @@
         em {
             font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
         }
-
+        
         strong {
             font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
         }
-
+        
         h1 {
             font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
         }
-
-      
-		form {
-			font-family: "Gill trSans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-			
-		}
+        
+        form {
+            font-family: "Gill trSans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+        }
     </style>
 </head>
 
@@ -44,29 +42,29 @@
     <p><strong>Address</strong> - <em>Port Harcourt, Rivers state</em></p>
 
     <div class="contact.me.form">
-		<form action="mailto:manuelola6@gmail.com" method="post" autocomplete="on" enctype="text/plain">
-        <label>Name: <input autocomplete="on" type="text" name="Name"></label>
-		<br>
-		<label>Email: <input autocomplete="on" type="email" name="Email"> </label>
-		<br>
-		<label>Message:</label><br>
-		<textarea name="Message" rows="5" cols="10"></textarea> 
-		<br>
-		<input type="submit" value="Contact Me">
-    	</form>
+        <form action="mailto:manuelola6@gmail.com" method="post" autocomplete="on" enctype="text/plain">
+            <label>Name: <input autocomplete="on" type="text" name="Name" aria-label="Name label"></label>
+            <br>
+            <label>Email: <input autocomplete="on" type="email" name="Email" aria-label="EMail label"> </label>
+            <br>
+            <label>Message:</label><br>
+            <textarea name="Message" rows="5" cols="10"></textarea>
+            <br>
+            <input type="submit" value="Contact Me" aria-label="Submit button">
+        </form>
     </div>
-	
+
     <br>
     <form action="index.HTML" method="get" class="index button form" id="index-button-form">
-      <div class="index button" id="index-button">
-        <input type="submit" value="About Me" />
-      </div>
+        <div class="index button" id="index-button">
+            <input type="submit" value="About Me" aria-label="Submit index button" />
+        </div>
 
     </form>
     <form action="work-experience.HTML" method="get" class="experience button form" id="work-experience-button-form">
-      <div class="experience.button" id="work-experience-button">
-        <input type="submit" form="work-experience-button-form" value="Work Experience" />
-      </div>
+        <div class="experience.button" id="work-experience-button">
+            <input type="submit" form="work-experience-button-form" value="Work Experience" aria-label="Submit work experience button" />
+        </div>
     </form>
 
 </body>
