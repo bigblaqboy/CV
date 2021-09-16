@@ -1,0 +1,140 @@
+<!doctype html>
+<!--suppress ALL -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="keywords" content="HTML,CSS,XML,Javascript">
+    <meta name="description" content="First Web Development Trail Website">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+
+    <title>Playbook A</title>
+    <style>
+        html {
+            font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+            background-color: white;
+        }
+
+        body {
+            width: 100%;
+            max-width: 1080px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        header {
+            background: linear-gradient(to right, yellow, white, yellow);
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <img width="100" height="100" src="images/mypicture.png" alt="Emmanuel's profile picture" class="fit-picture">
+
+        <h1><a href="https://www.facebook.com/bigblaqboy.1/">Emmanuel Olasoebikan</a></h1>
+        <p>
+            <em>
+        Creative Designer at <strong>Silverback Creatives</strong>
+      </em>
+        </p>
+        <br>
+
+        <header>
+            <strong><h2>About Me</h2></strong>
+        </header>
+
+        <p><em> Graduate quantity surveyor with excellent and creative skill set, aiming to leverage proven knowledge of </em><strong>cost quantification, Building Information Modelling, materials measurement and ICT </strong><em>with a sound academic experience to
+    achieve the company's goals whilst gaining field experience on the long run.</em> </p>
+    </div>
+    <!--suppress HtmlDeprecatedAttribute -->
+    <hr size="2" align="center" color="#67ae0a" noshade>
+
+    <h3>Education</h3>
+    <ol type="1">
+        <li><strong>Bachelors of Technology - </strong>2014 - 2019 <br>
+            <p>
+                <!--suppress HtmlDeprecatedAttribute -->
+                <!--suppress HtmlDeprecatedAttribute -->
+                <ul type="circle">
+                    <li><em>Quantity Surveying // Second Class Upper Honors </em><br>
+                        <p><a href="https://futa.edu.ng/">The Federal University of Technology, Akure</a></p>
+                    </li>
+                </ul>
+            </p>
+        </li>
+        <li>
+            <strong>
+      Senior School Certificate Exam </strong>- 2009- 2014 <br>
+            <p>
+                <ul type="circle">
+                    <li>
+                        Babcock University High School
+                    </li>
+                </ul>
+            </p>
+        </li>
+    </ol>
+
+<br>
+    <!--This is a line break. Take time to assess what's been done then proceed to another phase. You are behind schedule. Make up for lost time.-->
+    <form action="work-experience.HTML" method="get" class="experience button form" id="work-experience-button-form">
+      <div class="experience button" id="work-experience-button">
+        <input type="submit" form="work-experience-button-form" value="Work Experience" />
+      </div>
+    </form>
+    <div>
+      <form action="contact-me.HTML" method="get">
+        <div>
+          <input type="submit" value="Contact Me" />
+      </form>
+    </div>
+      <br>
+   <!--  <picture>
+        <source srcset="images/mypicture.png" media="(min-width: 500px) and (max-width: 800px)">
+        <source srcset="images/image.jpg" media="(min-width: 800px)">
+        <img src="images/Logged out.png" alt="Changing images" style="width:auto;">
+    </picture>-->
+
+    <!-- Form which will send a GET request to the current URL -->
+  <form>
+    <label>Name:
+      <input name="submitted-name" autocomplete="name">
+    </label>
+    <button>Save</button>
+  </form>
+
+  <!-- Form which will send a POST request to the current URL -->
+  <form method="post">
+    <label>Name 2:
+      <input name="submitted-name" autocomplete="name">
+    </label>
+    <button>Save</button>
+  </form>
+
+  <!-- Form with fieldset, legend, and label -->
+  <form method="post">
+    <fieldset>
+      <legend>Title</legend>
+      <label>Select me<input type="checkbox" name="email"> </label>
+      <label> Select me again<input type="search" name="email"></label>
+      <label>Select me now<input type="radio" name="email"> </label>
+      <label> Select me now<input type="email" name="email"></label>
+    </fieldset>
+  </form>
+
+</body>
+
+</html>
