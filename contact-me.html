@@ -27,27 +27,27 @@
 
     <div class="contact.me.form">
         <form action="mailto:manuelola6@gmail.com" method="post" autocomplete="on" enctype="text/plain">
-            <label>Name: <input autocomplete="on" type="text" name="Name"></label>
+            <label>Name: <input autocomplete="on" type="text" name="Name" aria-label="name input"></label>
             <br>
-            <label>Email: <input autocomplete="on" type="email" name="Email"> </label>
+            <label>Email: <input autocomplete="on" type="email" name="Email" aria-label="email input"> </label>
             <br>
             <label>Message:</label><br>
             <textarea name="Message" rows="5" cols="10"></textarea>
             <br>
-            <input type="submit" value="Contact Me">
+            <input type="submit" value="Contact Me" aria-label="submit button">
         </form>
     </div>
 
     <br>
     <form action="index.HTML" method="get" class="index button form" id="index-button-form">
         <div class="index button" id="index-button">
-            <input type="submit" value="About Me" />
+            <input type="submit" value="About Me" aria-label="submit button for index" />
         </div>
 
     </form>
     <form action="work-experience.HTML" method="get" class="experience button form" id="work-experience-button-form">
         <div class="experience.button" id="work-experience-button">
-            <input type="submit" form="work-experience-button-form" value="Work Experience" />
+            <input type="submit" form="work-experience-button-form" value="Work Experience" aria-label="submit button for work experience" />
         </div>
     </form>
 
