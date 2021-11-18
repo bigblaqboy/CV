@@ -8,12 +8,6 @@ p {
     line-height: 1.5;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-}
-
 h1 {
     color: blueviolet;
 }
@@ -35,4 +29,13 @@ hr {
     background-color: inherit;
     text-align: left;
     margin-left: auto;
+}
+
+table {
+    line-height: normal;
+    border-spacing: 20px;
+}
+
+tr {
+    line-height: 50%;
 }
