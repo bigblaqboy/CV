@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h3 {
+    color: darkslategray;
+}
+
+strong {
+    color: darkslategray;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: darkslategray;
+    border-width: 5px;
+    width: 5%;
+    background-color: inherit;
+    text-align: left;
+    margin-left: auto;
+}
