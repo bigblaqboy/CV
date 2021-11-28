@@ -13,12 +13,14 @@ h1 {
   color: blueviolet;
   font-size: 30px;
   transition: color 1s ease-out 50ms;
+  transition: font-size 0.5s ease-out 50ms;
 }
 
 h1:hover {
   color: #0064d3;
-  font-size: 50px;
+  font-size: 32px;
   transition: color 1s ease-in 50ms;
+  transition: font-size 0.5s ease-in-out 50ms;
 }
 
 h2 {
