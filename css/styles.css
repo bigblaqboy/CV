@@ -1,56 +1,66 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: azure;
-  color: #20272F;
-  line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: #20272F;
+    line-height: 1.5;
 }
 
 p {
-  line-height: 1.5;
+    line-height: 1.5;
 }
 
 h1 {
-  color: blueviolet;
-  font-size: 30px;
-  transition: color 1s ease-out 50ms;
-  transition: font-size 0.5s ease-out 50ms;
+    color: blueviolet;
+    font-size: 30px;
+    transition: color 1s ease-out 50ms;
+    transition: font-size 0.5s ease-out 50ms;
 }
 
 h1:hover {
-  color: #0064d3;
-  font-size: 32px;
-  transition: color 1s ease-in 50ms;
-  transition: font-size 0.5s ease-in-out 50ms;
+    color: #0064d3;
+    font-size: 32px;
+    transition: color 1s ease-in 50ms;
+    transition: font-size 0.5s ease-in-out 50ms;
 }
 
 h2 {
-  color: #bb1133;
+    color: #bb1133;
 }
 
 h3 {
-  color: darkslategray;
+    color: darkslategray;
 }
 
 strong {
-  color: darkslategray;
+    color: darkslategray;
 }
 
 hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: darkslategray;
-  border-width: 5px;
-  width: 5%;
-  background-color: inherit;
-  text-align: left;
-  margin-left: auto;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: darkslategray;
+    border-width: 5px;
+    width: 5%;
+    background-color: inherit;
+    text-align: left;
+    margin-left: auto;
 }
 
 table {
-  line-height: normal;
-  border-spacing: 20px;
+    line-height: normal;
+    border-spacing: 20px;
 }
 
 tr {
-  line-height: 50%;
+    line-height: 50%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+img:hover {
+    width: 120px;
+    height: 120px;
 }
